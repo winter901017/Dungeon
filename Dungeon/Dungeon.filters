@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Roles">
+      <UniqueIdentifier>{f348feee-23a8-4311-afbb-461a1880ee7f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Source">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="TriggerItem">
+      <UniqueIdentifier>{277cfc5a-4c8c-4401-b952-ba72307cd5a9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Monster">
+      <UniqueIdentifier>{9e13746e-dce9-41a6-af9a-45bed4e69ca8}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="main.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Position.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Viwer.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Hero.h">
+      <Filter>Roles</Filter>
+    </ClInclude>
+    <ClInclude Include="Item.h">
+      <Filter>TriggerItem</Filter>
+    </ClInclude>
+    <ClInclude Include="ShowExit.h">
+      <Filter>TriggerItem</Filter>
+    </ClInclude>
+    <ClInclude Include="Creature.h">
+      <Filter>Monster</Filter>
+    </ClInclude>
+    <ClInclude Include="MathGame.h">
+      <Filter>Monster</Filter>
+    </ClInclude>
+    <ClInclude Include="Object.h">
+      <Filter>Monster</Filter>
+    </ClInclude>
+    <ClInclude Include="VocabularyGame.h">
+      <Filter>Monster</Filter>
+    </ClInclude>
+    <ClInclude Include="Kill.h">
+      <Filter>Monster</Filter>
+    </ClInclude>
+    <ClInclude Include="RunningGame.h">
+      <Filter>Monster</Filter>
+    </ClInclude>
+    <ClInclude Include="ViewAdd.h">
+      <Filter>TriggerItem</Filter>
+    </ClInclude>
+    <ClInclude Include="End.h">
+      <Filter>TriggerItem</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

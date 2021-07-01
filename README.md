@@ -6,7 +6,7 @@
 - [License](#license)
 
 ## Targer
-Dungeon Game no rule.
+Design interesting Dungeon Game.
 
 ## Background
 
